@@ -22,5 +22,10 @@ namespace WindowsFormsApplication2
             openFileDialog1.Filter = "Word Documents (*.docx)|*.docx| All files |*.*";
             openFileDialog1.ShowDialog();
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
